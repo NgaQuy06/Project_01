@@ -5,7 +5,7 @@ namespace Server_Project_01
 {
     public class Npg
     {
-        public static string str = "";
+        public static string str = "postgresql://postgres.qknqdjlslcwdvabbztag:Nguyentrg2006[@aws-1-ap-northeast-2.pooler.supabase.com:6543/postgres";
 
         public async static Task<LoginRequest?> Login(string username, string password)
         {
